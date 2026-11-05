@@ -18,10 +18,10 @@ function ItemCard({ item }) {
 
   // Build the correct image URL
   const imageUrl = item.image
-    ? item.image.startsWith("http")
-      ? item.image
-      : `http://localhost:5000${item.image}`
-    : "";
+  ? item.image.startsWith("http")
+    ? item.image
+    : `https://findora-portal.onrender.com${item.image}`
+  : "";
 
   function handleViewDetails() {
     navigate("/item-details", {
