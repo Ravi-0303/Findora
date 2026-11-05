@@ -318,7 +318,6 @@ The following functionalities were tested:
 - Responsive interface testing.
 
 ## Deployment
-
 The application is deployed using Render.
 
 ### Frontend Deployment
